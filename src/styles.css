@@ -234,6 +234,9 @@ main {
 }
 
 .stats-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(clamp(150px, 100%, 220px), 1fr));
 }
 
@@ -251,6 +254,9 @@ main {
 }
 
 .services-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(clamp(160px, 100%, 220px), 1fr));
 }
 
